@@ -13,7 +13,7 @@ apt -y install git
 git clone https://github.com/PAINCLOWN/UFI_debian_ipv6.git 
 cd UFI_debian_ipv6 
 chmod +x debain_get_ipv6.sh 
-sh debain_get_ipv6.sh
+sh debain-get-ipv6.sh
 ```
 
 国内：
@@ -23,6 +23,6 @@ apt -y install git
 git clone https://ghproxy.com/https://github.com/PAINCLOWN/UFI_debian_ipv6.git 
 cd UFI_debian_ipv6 
 chmod +x debain_get_ipv6.sh 
-sh debain_get_ipv6.sh
+sh debain-get-ipv6.sh
 ```
 
