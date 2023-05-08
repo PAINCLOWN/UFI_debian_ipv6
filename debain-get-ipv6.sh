@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "Author:PIANCLOWN"
 nmcli c del br0 wifi wlan0 usb0 usb USB bridge usb-share 
