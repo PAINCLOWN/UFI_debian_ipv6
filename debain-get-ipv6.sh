@@ -22,8 +22,8 @@ systemctl start dnsmasq.service
 nmcli c modify br0 ipv6.method ignore
 nmcli c modify wlan0 wifi-sec.key-mgmt wpa-psk
 nmcli c modify wlan0 wifi-sec.psk "741852abc"
-echo "sleep 10"
-sleep 10
+echo "sleep 5"
+sleep 5
 echo "go on"
 cat >/etc/apt/sources.list<<EOF
 deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free
@@ -106,5 +106,7 @@ pool pool1 {
         range PREFIX_MIN to PREFIX_MAX ;
 };
 EOF
+sleep 5
 echo "end"
+sleep 2
 reboot
