@@ -2,6 +2,7 @@
 开启UFI debian的ipv6
 
 中途需要手动输入一下br0指定一下网卡 
+![image](https://user-images.githubusercontent.com/29433774/236862281-c60bf2c7-634f-45fd-a6ff-6608fc260c12.png)
 
 
 **一定要在adb shell中执行！**
