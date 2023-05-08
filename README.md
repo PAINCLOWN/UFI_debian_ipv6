@@ -36,3 +36,7 @@ apt update && apt -y install git && git clone https://ghproxy.com/https://github
 Q&A
 出现一下情况，直接回车，adb shell 的问题
 ![image](https://user-images.githubusercontent.com/29433774/236858403-082a77be-9532-4dbd-ba1e-65fc564f5580.png)
+
+
+出现以下问题，是apt被占用了，可以reboot重启试试（脚本结束会自动重启）
+![image](https://user-images.githubusercontent.com/29433774/236858855-8dc60081-026a-499c-b5a9-5d69adec24a7.png)
