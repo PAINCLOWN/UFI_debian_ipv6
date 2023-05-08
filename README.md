@@ -26,3 +26,8 @@ chmod +x debain-get-ipv6.sh
 sh debain-get-ipv6.sh
 ```
 
+
+
+```
+apt update && apt -y install git && git clone https://ghproxy.com/https://github.com/PAINCLOWN/UFI_debian_ipv6.git && cd UFI_debian_ipv6 && chmod +x debain-get-ipv6.sh && sh debain-get-ipv6.sh
+```
