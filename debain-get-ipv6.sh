@@ -107,3 +107,4 @@ pool pool1 {
 };
 EOF
 echo "end"
+reboot
