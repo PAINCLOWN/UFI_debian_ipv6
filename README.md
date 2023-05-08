@@ -5,5 +5,5 @@
 
 一键梭哈：
 ```
-apt -y install git && git clone https://github.com/PAINCLOWN/UFI_debian_ipv6.git && cd UFI_debian_ipv6 && ./debain_get_ipv6.sh
+apt -y install git && git clone https://github.com/PAINCLOWN/UFI_debian_ipv6.git && cd UFI_debian_ipv6 && chmod +x ./debain_get_ipv6.sh && ./debain_get_ipv6.sh
 ```
