@@ -1,5 +1,6 @@
 # UFI_debian_ipv6
 开启UFI debian的ipv6
+![image](https://user-images.githubusercontent.com/29433774/236867501-58f5799f-5077-48d9-a537-74f547afdc95.png)
 
 中途需要手动输入一下br0指定一下网卡 
 ![image](https://user-images.githubusercontent.com/29433774/236862281-c60bf2c7-634f-45fd-a6ff-6608fc260c12.png)
