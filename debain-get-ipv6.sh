@@ -25,22 +25,6 @@ nmcli c modify wlan0 wifi-sec.psk "741852abc"
 echo "sleep 5"
 sleep 5
 echo "go on"
-cat >/etc/apt/sources.list<<EOF
-deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free
-deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free
-
-deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib non-free
-deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib non-free
-
-deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-backports main contrib non-free
-deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-backports main contrib non-free
-
-deb http://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free
-deb-src http://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free
-
-# deb http://security.debian.org/debian-security bullseye-security main contrib non-free
-# deb-src http://security.debian.org/debian-security bullseye-security main contrib non-free
-EOF
 apt-get  -y  update
 apt-get -y install ndppd radvd wide-dhcpv6-server iproute2
 cat>/etc/NetworkManager/dispatcher.d/ipv6-conf.sh<<EOF
