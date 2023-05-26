@@ -43,7 +43,7 @@ sh debain-get-ipv6.sh
 一键梭哈：
 
 ```
-apt -y install git&&git clone https://gitclone.com/github.com/PAINCLOWN/UFI_debian_ipv6.git&&cd UFI_debian_ipv6&&chmod +x debain-get-ipv6.sh&&sh debain-get-ipv6.sh
+apt update;apt -y install git;git clone https://gitclone.com/github.com/PAINCLOWN/UFI_debian_ipv6.git&&cd UFI_debian_ipv6&&chmod +x debain-get-ipv6.sh&&sh debain-get-ipv6.sh
 ```
 
 
